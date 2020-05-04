@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: generic
-  number: 1002
+  number: 1003
 
   rpaths:
     - lib/R/lib/
@@ -37,10 +37,11 @@ test:
 about:
   home: https://github.com/taiyun/corrplot
   license: GPL
-  summary: A graphical display of a correlation matrix or general matrix. It also contains some
-    algorithms to do matrix reordering.
+  summary: A graphical display of a correlation matrix or general matrix. It also contains some algorithms to do matrix reordering.
   license_family: GPL
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 extra:
   recipe-maintainers:
     - conda-forge/r

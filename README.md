@@ -3,7 +3,7 @@ About r-corrplot
 
 Home: https://github.com/taiyun/corrplot
 
-Package license: GPL
+Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-corrplot-feedstock/blob/master/LICENSE.txt)
 
@@ -115,10 +115,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@daler](https://github.com/daler/)
-* [@dpryan79](https://github.com/dpryan79/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 

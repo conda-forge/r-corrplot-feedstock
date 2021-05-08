@@ -1,4 +1,4 @@
-{% set version = "0.84" %}
+{% set version = "0.87" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/corrplot_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/corrplot/corrplot_{{ version }}.tar.gz
-  sha256: 0dce5e628ead9045580a191f60c58fd7c75b4bbfaaa3307678fc9ed550c303cc
+  sha256: b251a2130aa4f9730dd723b732c9daf2915a9d186a6be7051aabe88f1b69f2b6
 
 build:
   noarch: generic
-  number: 1003
+  number: 0
 
   rpaths:
     - lib/R/lib/

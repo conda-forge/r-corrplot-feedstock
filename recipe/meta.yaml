@@ -1,4 +1,4 @@
-{% set version = "0.89" %}
+{% set version = "0.90" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/corrplot_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/corrplot/corrplot_{{ version }}.tar.gz
-  sha256: bad847f8fd791f2d3a2817d7a56d7c0e30757759a697f50c21325e56cf673bb4
+  sha256: d9871f219351f443f879ae93c45e3a364eb32cc6f41491a801e7b8a91e96d5dd
 
 build:
   merge_build_host: true  # [win]
